@@ -1,0 +1,77 @@
+/* 📜 Certifications Section */
+.certifications {
+  padding: 60px 20px;
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.certifications h2 {
+  font-size: 32px;
+  color: #1e3a8a;
+  margin-bottom: 40px;
+}
+
+/* 🔳 Container for all cards */
+.cert-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* 🪪 Individual Certificate Card */
+.cert-card {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  padding: 25px;
+  max-width: 350px;
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cert-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.1);
+}
+
+.cert-card h3 {
+  font-size: 20px;
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.cert-card p {
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.cert-card button {
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.cert-card button:hover {
+  background-color: #005f8e;
+}
+
+/* 📱 Responsive */
+@media (max-width: 768px) {
+  .cert-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .cert-card {
+    width: 90%;
+  }
+}
