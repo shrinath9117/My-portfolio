@@ -1,0 +1,82 @@
+/* ---------- Global Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ---------- Body Styles ---------- */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* ---------- Projects Section ---------- */
+.projects {
+  background: #f1f8ff;
+  padding: 50px 30px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.projects h2 {
+  font-size: 2rem;
+  color: #0077b6;
+  margin-bottom: 30px;
+}
+
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: white;
+  border: 1px solid #ccc;
+  max-width: 400px;
+  width: 90%;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: left;
+  transition: transform 0.3s;
+  cursor: pointer;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  color: #023e8a;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  font-size: 0.95rem;
+  color: #333;
+}
+
+/* ---------- Technologies Used ---------- */
+.tech-used {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  background-color: #e6f0ff;
+  color: #005f8e;
+  padding: 0.6rem 1rem;
+  border-left: 4px solid #0077b6;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+/* ---------- Certification Button Hover (If Needed) ---------- */
+.cert-card button:hover {
+  background-color: #005f8e;
+}

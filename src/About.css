@@ -1,0 +1,59 @@
+/* ---------- General Reset ---------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(to right, #e0eafc, #cfdef3);
+  color: #333;
+  line-height: 1.6;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+/* 👤 About Me Section */
+.about-section {
+  background-color: #f0f8ff;
+  padding: 60px 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.about-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+}
+
+.about-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 25px;
+}
+
+.about-header i {
+  font-size: 40px;
+  color: #6a0dad;
+}
+
+.about-header h2 {
+  font-size: 30px;
+  color: #0077b6;
+  margin: 0;
+}
+
+.about-text {
+  font-size: 18px;
+  color: #333333;
+  line-height: 1.8;
+  text-align: left;
+}
